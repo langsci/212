@@ -1,0 +1,277 @@
+ablative
+absolutive
+adjectivaliser
+adjective
+adverb
+adverbial clause
+affricate
+agent
+agglutnative
+agriculture
+alignment
+allative
+allomorph
+allophome
+alveolar
+ambifixing verb
+anaphoric
+andative
+animate
+apprehensive
+approximant
+archive
+aspect
+associative
+backgrounded
+backshifting
+benefactive
+beneficiary
+billabial
+case
+causative
+characteristic
+clan
+clause
+clitic
+cognate object
+colour term
+combinatorics
+comitative
+complement
+conditional
+conjunction
+consituent order
+consonant clusters
+coordination
+copula
+corpus
+culture
+dative
+deictic
+deixis
+demography
+demonstrative
+deponent
+determiner
+devoicing
+diminuitive
+diphthong
+direct speech
+direction
+directional
+directionality
+disjunction
+dissimilation
+distal
+distributed exponence
+distributive
+ditransitive
+dual
+durative
+dynamicity
+ellipsis
+emphatic
+enclitic
+epenthesis
+epenthetic vowel
+ergative
+etcetera
+event-sequencing
+exclusive
+exogamy
+experiencer
+experiencer-object
+exponence
+extended stem
+feminine
+focus
+frequency
+fricatives
+fronted relative clause
+future
+geminate
+gemitation
+gender
+genitive
+gloss
+glottal stop
+goal
+grammatical relations
+habitual
+head
+heterosemy
+iamitive
+identifier
+ideophone
+immediate
+immediate past
+imminent
+imperative
+imperfective
+impersonal
+inanimate
+inclusory
+indefinite
+indirect object
+indirect speech
+infinitive
+inflection
+information structure
+instrumental
+intensifier
+interjection
+interrogative
+intransitive
+irrealis
+iterative
+juxtaposition
+kinship
+landscape
+language ideology
+large plural
+lateral
+light verb
+linking consonant
+loanword
+locational
+locative
+manner adverb
+masculine
+matrix clause
+medial
+metaphor
+metonymy
+middle
+middle verb
+minimal pair
+minimal word
+missionary
+modifier
+mood
+morphological complexity
+morphological template
+morphology
+morphophonemic processes
+multilingualism
+multiple exponence
+mythology
+name
+name avoidance
+nasal
+nasalisation
+nasals
+negation
+negator
+neutralisation
+nominal
+nominalisation
+nominaliser
+non-dual
+non-past
+non-plural
+non-singular
+non-verbal
+noun
+noun phrase
+number
+numeral system
+object
+oblique
+obstruent
+orthography
+participant
+particle
+passive
+past
+patient
+perfective
+person
+person reference
+phasal verb
+phonology
+place name
+plosives
+plural
+polar question
+portmanteau
+positional
+possessee
+possessive
+possessive marking
+possessor
+postposition
+potential
+predication
+prefix
+prefix series
+prefixing verb
+prenasal
+privative
+proclitic
+prohibitve
+pronominal
+pronoun
+proper name
+proper noun
+property noun
+proprietive
+proximal
+pseudo-cognate object
+purposive
+quantification
+quantifier
+question
+quotative
+raising
+realis
+recent past
+recipient
+reciprocal
+recognitional
+reduplication
+referent
+reflexive
+relative clause
+restricted stem
+schwa
+semantics
+semivowel
+senary
+similative
+simultaneity
+singular
+SOV
+stative
+stem
+stimulus
+stress
+subject
+suffix
+suppressed-object
+syllabification
+syllable
+syllable type
+syntax
+tail-head linkage
+TAM
+template
+temporal
+tense
+theme
+TLA
+topic
+transitive
+undergoer
+valency
+valency alternations
+valency change
+velar
+ventive
+verb
+vitality
+volitionality
+vowel harmony
+word class
+yam
+zenodo
+zero
