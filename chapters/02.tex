@@ -12,24 +12,36 @@ Table \ref{consinv} gives an overview of the consonant phonemes in Komnzo. %The 
 \begin{table}
 \caption[Consonant phoneme inventory]{Consonant phoneme inventory}
 \label{consinv}
-	\begin{tabularx}{\textwidth}{cccccccc}
-		\lsptoprule
-		& \scriptsize{bilabial}& \scriptsize{dental} & \scriptsize{alveolar} & \scriptsize{palato-alveolar}	& \scriptsize{palatal} & \scriptsize{velar} & \scriptsize{labio-velar} \\ \midrule
-		% \& && \multicolumn{2}{c}{}&&&&\\
-		\scriptsize{stop}/\scriptsize{affr.}&& \multicolumn{2}{l}{t̪$\sim$t}& ts&& k & k\super{w}\\
-		&& \multicolumn{2}{l}{\footnotesize{<t>}}& \footnotesize{<z>}&& \footnotesize{<k>} & \footnotesize{<kw>}\\
-		\scriptsize{pren. stop} & \super{m}b && \super{n}d & \super{n}dz && \super{ŋ}g & \super{ŋ}g\super{w}\\
-		\scriptsize{/affr.}&\footnotesize{<b>} && \footnotesize{<d>} & \footnotesize{<nz>} && \footnotesize{<g>} & \footnotesize{<gw>}\\\\
-		\scriptsize{fricative} & ɸ & ð & s &&&&\\
-		& \footnotesize{<f>} & \footnotesize{<th>} & \footnotesize{<s>} &&&&\\
-		\scriptsize{nasal} & m && n &&& ŋ &\\
-		& \footnotesize{<m>} && \footnotesize{<n>} &&& \footnotesize{<ŋ>} &\\
-		\scriptsize{lateral} &&& r$\sim$ɾ &&&&\\
-		&&& \footnotesize{<r>} &&&&\\
-		\scriptsize{semivowel} &&&&& j && w\\
-		&&&&& \footnotesize{<y>} && \footnotesize{<w>}\\
-		\lspbottomrule
-	\end{tabularx}
+\fittable{
+  \begin{tabular}{cccccccc}
+	\lsptoprule
+	& {bilabial}& {dental} & {alveolar} & {palato-alveolar}	& {palatal} & {velar} & {labio-velar} \\ \midrule
+	% \& && \multicolumn{2}{c}{}&&&&\\
+	{stop}/{affricate}&& \multicolumn{2}{l}{t̪$\sim$t}& ts&& k & k\super{w}\\
+	&& \multicolumn{2}{l}{\footnotesize{<t>}}& \footnotesize{<z>}&& \footnotesize{<k>} & \footnotesize{<kw>}\\
+	
+	\tablevspace
+	{prenasalized } & \super{m}b && \super{n}d & \super{n}dz && \super{ŋ}g & \super{ŋ}g\super{w}\\
+	{stop/affricate}&\footnotesize{<b>} && \footnotesize{<d>} & \footnotesize{<nz>} && \footnotesize{<g>} & \footnotesize{<gw>}\\\\
+	
+	\tablevspace
+	{fricative} & ɸ & ð & s &&&&\\
+	& \footnotesize{<f>} & \footnotesize{<th>} & \footnotesize{<s>} &&&&\\
+	
+	\tablevspace
+	{nasal} & m && n &&& ŋ &\\
+	& \footnotesize{<m>} && \footnotesize{<n>} &&& \footnotesize{<ŋ>} &\\
+	
+	\tablevspace
+	{lateral} &&& r$\sim$ɾ &&&&\\
+	&&& \footnotesize{<r>} &&&&\\
+	
+	\tablevspace
+	{semivowel} &&&&& j && w\\
+	&&&&& \footnotesize{<y>} && \footnotesize{<w>}\\
+	\lspbottomrule
+  \end{tabular}
+  }
 \end{table} %phoneme inventory - consonants
 
 \subsection{Obstruents} \label{obstruents}
@@ -268,15 +280,15 @@ There are a number of reasons why the two approximants are analysed as consonant
 The following \isi{minimal pair}s and near \isi{minimal pair}s in Table \ref{minpaircon} illustrate the phonemic contrast between consonants in initial, medial and final position.
 
 \clearpage
-\begin{table}
+\begin{longtable}{lllll}
 \caption{Minimal pairs of consonant phonemes}
-\begin{tabularx}{\textwidth}{lllll}
+% \begin{tabularx}{\textwidth}{lllll}
 \label{minpaircon}\\
-		\lsptoprule
+		\lsptoprule 
 		\textsc{segments}& {word}& {phonemic}& {phonetic}& {gloss}\\\midrule
-		%\endfirsthead
+		\endfirsthead
  		\textsc{segments}& {word}& {phonemic}& {phonetic}& {gloss}\\\midrule
- 		%\endhead
+ 		\endhead
 		/kw/ - /k/ & \emph{kwafar} & /kwa.far/ & [k\super{w}aβaɾ] &place name\\
 		& \emph{kafar} & /ka.far/ & [kaβaɾ] &`big'\\
 		&&&&\\
@@ -491,8 +503,8 @@ The following \isi{minimal pair}s and near \isi{minimal pair}s in Table \ref{min
 		& \emph{fäw} & /fäw/ & [ɸæ͡u] & `arrow shaft'\\
 		& \emph{fäy} & /fäy/ & [ɸæ͡i] & `payment'\\
 		\lspbottomrule
-\end{tabularx}
-\end{table}
+% \end{tabularx}
+\end{longtable}
 
 %\isi{minimal pair}s - consonant phonemes
 
@@ -524,7 +536,7 @@ Table \ref{vowelinv} and Figure \ref{vowelinvspace} below give an overview of th
 \begin{table}
 \caption{Vowel phoneme inventory}
 \label{vowelinv}
-	\begin{tabularx}{\textwidth}{Xcccc}
+	\begin{tabularx}{\textwidth}{XCCCC}
 		\lsptoprule
 		&\multicolumn{2}{c}{front}&central&back \\
 		&\footnotesize{unrounded}&\footnotesize{rounded}&& \\
@@ -548,19 +560,19 @@ There is free variation between the following allophones, that is respectively o
 \begin{table}
 \caption{Vowel allophones}
 \label{allovowel}
-	\begin{tabularx}{\textwidth}{Xll}
+	\begin{tabular}{ll@{~~$\rightarrow$~~}l}
 		\lsptoprule
 		phoneme&description&allophones\\\midrule
-		/i/ &high front unrounded vowel &$\rightarrow$ [i]$\sim$[ı]\\
-		/ü/ &high front rounded vowel &$\rightarrow$ [y]$\sim$[ʏ]\\
-		/u/ &high back rounded vowel &$\rightarrow$ [u]$\sim$[ʊ]\\
-		/e/ &mid front unrounded vowel &$\rightarrow$ [e]$\sim$[ɛ]\\
-		/ö/ &mid front rounded vowel &$\rightarrow$ [ø]$\sim$[œ]\\
-		/o/ &mid back rounded vowel &$\rightarrow$ [o]$\sim$[ɔ]\\
-		/a/ &low central unrounded vowel &$\rightarrow$ [a]$\sim$[ɐ]\\
-		/ä/ &low front unrounded vowel &$\rightarrow$ [æ]\\
+		/i/ &high front unrounded vowel & [i]$\sim$[ı]\\
+		/ü/ &high front rounded vowel & [y]$\sim$[ʏ]\\
+		/u/ &high back rounded vowel & [u]$\sim$[ʊ]\\
+		/e/ &mid front unrounded vowel & [e]$\sim$[ɛ]\\
+		/ö/ &mid front rounded vowel & [ø]$\sim$[œ]\\
+		/o/ &mid back rounded vowel & [o]$\sim$[ɔ]\\
+		/a/ &low central unrounded vowel & [a]$\sim$[ɐ]\\
+		/ä/ &low front unrounded vowel & [æ]\\
 		\lspbottomrule
-	\end{tabularx}
+	\end{tabular}
 \end{table}%Vowel allophones
 
 There is no phonemic contrast between short and long vowels. However, vowels tend to be longer in monosyllabic roots, especially if the monosyllable is light/open, e.g. \emph{nzä} [\super{n}dʒæ:] `I'. This process of vowel lengthening is caused by \isi{minimal word} conditions in combination with \isi{syllable} weight as will be described in \S{}\ref{syllstruc} and \S{}\ref{minwordconstraints}.
@@ -569,7 +581,7 @@ There is no phonemic contrast between short and long vowels. However, vowels ten
 
 There is further allophonic variation for /o/ which is related to vowel lengthening. In heavy, closed syllables, /o/ is realised as a short, centralised, rounded vowel [ɞ̆], whereas in light, open syllables it is realised as a mid back rounded vowel of normal length [ɔ]. Two words which show this allophonic variation are the language name \emph{Komnzo} /kom.nzo/ [kɞ̆m\super{n}dzɔ] and \emph{komon} /ko.mon/ [kɔmɞ̆n] `maybe'. We find the two allophones [ɞ̆] and [ɔ] conditioned by \isi{syllable} weight in the syllables of the two words respectively. There are two rules which may override this allophonic distribution. The first is a \isi{minimal word} constraint which produces [ɔ] even in closed syllables if the root is monosyllabic (see \S{}\ref{minwordconstraints}). The second rule overrides \isi{syllable} weight and the impact of the \isi{minimal word} constraint. After the labio-\isi{velar} \isi{approximant} (/w/) and the two labialised-\isi{velar} stops (/kw/ and /gw/) /o/ is always realised as short, centralised, rounded vowel [ɞ̆]. Leaving the influences of the \isi{minimal word} constraint to \S{}\ref{minwordconstraints}, we can formalise these observations in the following rule:
 
-\begin{figure}
+\ea
   $\mbox{/o/ $\rightarrow$} \left\{
     \begin{array}{l}
       \parbox{3cm}{[ɞ̆] / \_C]\textsubscript{$\sigma$}} \parbox{2cm}{\emph{emoth}} \parbox{2,5cm}{/e.moth/} \parbox{2,5cm}{[ʔe:mɞ̆θ]} \parbox{3cm}{`girl'} \\
@@ -583,7 +595,7 @@ There is further allophonic variation for /o/ which is related to vowel lengthen
 	  \parbox{3cm}{\hfill} \parbox{2cm}{\emph{woku}} \parbox{2,5cm}{/wo.ku/} \parbox{2,5cm}{[wɞ̆ku]} \parbox{6cm}{`skin'} \\
     \end{array}
   \right.$
-\end{figure}%allophones of /o/
+\z
 
 There are some irregularities with these rules when it comes to other bilabial consonants, like /f/. There is \emph{fofot} [ɸɔɸɞ̆t] `single child' which follows the rule, but there are a handful of words which do not follow the rule, like: \emph{fothr} [ɸɞ̆ðə̆r] `eucalyptus type' or \emph{fokufoku} [ɸɞ̆kuɸɞ̆ku] `small patch of vegetation'.
 \vspace{-.2cm}
@@ -610,9 +622,9 @@ There is one caveat to the analysis of \isi{schwa} as epenthetic. It cannot be p
 The following \isi{minimal pair}s and near \isi{minimal pair}s illustrate the phonemic contrasts between vowels. Each vowel phoneme is set apart from its immediate neighbours in the vowel space. Each vowel phoneme is contrasted with the \isi{epenthetic vowel}, i.e. the absence of a specified vowel (\Zero{}). Some combinations are redundant (e.g.: /i/ - /e/ and /e/ - /i/) and not repeated in the table.
 
 %{\small%
-\begin{table} 
+\begin{longtable} {lllll}
 \caption{Minimal pairs of vowel phonemes}
-\begin{tabularx}{\textwidth}{lllll}
+% \begin{tabularx}{\textwidth}
 \label{minpairvow}\\
 		\lsptoprule
 		\textsc{segments}&{word}&{phonemic}&{phonetic}&{gloss}\\ \midrule
@@ -810,8 +822,8 @@ The following \isi{minimal pair}s and near \isi{minimal pair}s illustrate the ph
 		& \emph{nzigom} & /nzi.gom/ & [\super{n}dʒi\super{ŋ}gɞ̯m] & `chain smoker'\\
 		& \emph{nzigm} & /nzi.gm/ & [\super{n}dʒi\super{ŋ}gə̆m] & `stickyness'\\
 		\lspbottomrule
-\end{tabularx}
-\end{table}
+% \end{tabularx}
+\end{longtable}
 
 %}
 
@@ -825,7 +837,7 @@ Gemination occurs with a subset of the consonantal phonemes (/t/, /k/, /f/, /th/
 \begin{table}
 \caption{Geminate consonants}
 \label{geminates}
-	\begin{tabularx}{\textwidth}{Xll}
+	\begin{tabularx}{\textwidth}{XXl}
 		\lsptoprule
 		{segment} & {geminate} & {non-geminate} \\ \midrule
 		/t/ & \emph{yttünzr} `s/he paints him' & n/a \\
@@ -866,14 +878,14 @@ The process of final \isi{devoicing}, naturally, affects only those consonants w
 
 The domain of final \isi{devoicing} is the \isi{syllable}. For example, in words where /nz/ occurs in onset position, it is always voiced: \emph{nzafar} [\super{n}dzaɸaɾ] `sky' and \emph{knzun} [kə̆\super{n}dzun] `parallel'. If /nz/ occurs in final position, it is always voiceless: \emph{mnz} [mə̆\super{n}ts] `house'. We find evidence in suffixation and encliticisation that the process is targetting the right edge of the \isi{syllable} rather than the word. \emph{Mnz} [mə̆\super{n}ts] `house' may take the vowel initial \isi{locative} \isi{enclitic} \emph{=en} in which case /nz/ occurs in onset position and is voiced: \emph{mnzen} [mə̆\super{n}dzen] `in the house'. This contrasts with the consonant initial formatives \emph{=fa} (\Abl) and \emph{-wä} (\Emph). In both cases /nz/ is syllabified in coda position and is voiceless: \emph{mnzfa} [mə̆\super{n}tsɸa] `from the house' and \emph{mnzwä} [mə̆\super{n}tswæ] `really the house' . We can formalise final \isi{devoicing} in the following rule:
 
-\begin{figure}
+\ea
 \centering
 $\mbox{/b/, /d/, /g/, /nz/, /th/ $\rightarrow$} \left\{
 \begin{array}{l}
   \parbox{3,75cm}{[-voiced] / \_]\textsubscript{$\sigma$}} \\
 \end{array}
 \right.$
-\end{figure}%final devoicing rule
+\z
 
 The only excepion is /r/, where final \isi{devoicing} occurs only word-finally. However, final \isi{devoicing} of /r/ is optional and more commonly found with older speakers.
 
@@ -957,18 +969,20 @@ We find that where C\textsubscript{a} and C\textsubscript{b} are identical the c
 	\end{tabularx}
 \end{table}%Heterosyllabic \isi{consonant clusters}
 \footnotetext{The column and line labelled `prenasal' includes prenasalised stops and the prenasalised affricate.}
-\clearpage
-\begin{table}
-\label{heterosyllcctableexamples}
+
+
+\begin{longtable}{p{1,2cm}p{1,55cm}lll}
 \caption{Examples of attested heterosyllabic consonant clusters}
-\begin{tabularx}{\textwidth}{p{1,2cm}p{1,55cm}lll}
+\label{heterosyllcctableexamples}
+% \begin{tabularx}{\textwidth}{p{1,2cm}p{1,55cm}lll}
+		\\
 		\lsptoprule
 		C\textsubscript{a} & C\textsubscript{b} & {underlying} & {phonetic} & {gloss}\\
 		&&{representation}& {realisation}&\\ \midrule
-		%\endfirsthead
+		\endfirsthead
 		C\textsubscript{a} & C\textsubscript{b} & {underlying} & {phonetic} & {gloss}\\
 		&&{representation}& {realisation}&\\ \midrule
-		%\endhead
+		\endhead
 		/r/ & [+\isi{nasal}] & /ke\uline{r.m}a/&[ke\uline{ɾm}a] &`from tail'\\
 		&&/t\uline{r.n}ä/ &[tə̆\uline{ɾn}æ] &`palm frond'\\
 		&&&&\\
@@ -1057,9 +1071,8 @@ We find that where C\textsubscript{a} and C\textsubscript{b} are identical the c
 		{[+approx.]} &[+affr.]&/bä\uline{w.z}ö/&[\super{m}bæ\uline{\super{w}tʃ}œ]&`paperbark'\\
 		&&&&\\
 		{[+approx.]} &[+fric.]&/w\uline{y.th}k/&[wə̆\uline{\super{j}ð}ə̆k]&`comes to end'\\
-		\lspbottomrule
-\end{tabularx}
-\end{table} 
+		\lspbottomrule 
+\end{longtable} 
 
 %Examples of attested heterosyllabic \isi{consonant clusters}
 
@@ -1068,9 +1081,9 @@ We can make a number of observations from Table \ref{heterosyllcctableexamples} 
 There are only few clusters which involve /r/ in the C\textsubscript{b} position. This is caused by maximizing onsets during \isi{syllabification}, which creates complex onsets clusters of the type Cr. As a consequence, the only heterosyllabic clusters with /r/ in C\textsubscript{b} position are the ones which are illegal as onset clusters (e.g. \textsuperscript{$\ast$}\textsubscript{$\sigma$}[mr, \textsuperscript{$\ast$}\textsubscript{$\sigma$}[nr, \textsuperscript{$\ast$}\textsubscript{$\sigma$}[rr). In other words, because \textsuperscript{$\ast$}\textsubscript{$\sigma$}[nr is illegal as an onset, we do find it as a heterosyllabic cluster (\emph{ninrr} /ni\uline{n.r}r/ [ni\uline{nɾ}ə̆ɾ] `with us'). Likewise, because \textsubscript{$\sigma$}[fr is a legal onset cluster, we never find it as a heterosyllabic cluster.%\\
 
 We do find heterosyllabic clusters which involve /w/ in C\textsubscript{b} position and a \isi{velar} (prensalised) stop in  C\textsubscript{a} position. Evidence that these clusters are indeed heterosyllabic as opposed to an instantiation of the labialised \isi{velar} stop /kw/ and /gw/ comes two sources. First, we find examples like \emph{zokwasi} [tsɞ̆kwasi] `speech' where the short, centralised allophone of /o/ shows that /k/ is the coda of a closed \isi{syllable}. Compare this with the discussion of /o/ (\S{}\ref{phonetic-description-vowels}) and the discussion of \isi{syllable} weight (\S{}\ref{syllstruc}). Secondly, verb stems ending in /k/ and /g/ select the \emph{-wr} \isi{allomorph} of the non-dual suffix (\S{}\ref{allomorphdualsuffix}). Consequently, heterosyllabic clusters /k.w/ and /g.w/ as well as the complex phonemes /kw/ and /gw/ are required for an adequate description of the phonological system.
-\vspace{.2cm}
+
 \subsection{Syllabification and epenthesis} \label{syllabificationandepenthesis}
-\vspace{.2cm}
+
 Syllable structure is generally understood not to be defined at the underlying representation (\citealt[221]{Blevins:1995tt}). Hence, we do not find \isi{minimal pair}s based on syllabicity in Komnzo. As was explained in \S{}\ref{schwa-as-non-phoneme} above, \isi{schwa} is not a phoneme but an \isi{epenthetic vowel} inserted in order to break up \isi{consonant clusters}. There is some degree of free variation in syllabicity and \isi{schwa} insertion. An example is the word \emph{mrn} `family, clan' with the \isi{locative} suffix \emph{-en}. The resulting word \emph{mrnen} `in the family' may be realised either /mr.nen/ [mə̆ɾnen] or /m.r.nen/ [mə̆ɾə̆nen]. There is no phonemic contrast and speakers find it difficult to perceive the difference in syllabicity.%\\
 
 The process of \isi{syllabification} will be outlined here in the form of three ordered rules which predict \isi{epenthesis} and \isi{syllable} structure:
@@ -1259,10 +1272,9 @@ Stress is assigned from left to right. Words of up to four syllables construct a
 \begin{table}
 \caption{Stress patterns of words with two to four syllables}
 \label{stresspattern}
-	\begin{tabularx}{\textwidth}{Xlll}
+	\begin{tabularx}{\textwidth}{lXXl}
 		\lsptoprule
-		\textsc{syllable}&{example}&{phonetic}&{gloss}\\
-		\textsc{structure}&&&\\
+		 {syllable} {structure}&{example}&{phonetic}&{gloss}\\ 
 		\midrule
 		ˈ$\sigma$$\sigma$& ˈ\emph{nzäthe} &[\super{n}dʒæðe]& `namesake'\\
 		&ˈ\emph{ebar}& [ʔe\super{m}baɾ]& `head'\\
@@ -1294,7 +1306,7 @@ The emphasiser suffix \emph{-wä} attaches to \isi{nominal}s. Affixation of \emp
 \label{vowelharmwae}
 	\begin{tabularx}{\textwidth}{Xll}
 		\lsptoprule
-		\textsc{process}&{example}& {example with} \emph{=wä} \\ \midrule
+		 {process}&{example}& {example with} \emph{=wä} \\ \midrule
 		fronting of /o/&\emph{karfo} `to the village' & \emph{kar=fö=wä} \\
 		&&village=\Abl{}=\Emph{}\\
 		&\emph{bobo} `towards there' & \emph{bobö=wä}\\
@@ -1335,7 +1347,7 @@ All of the verbal proclitics consist only of a consonant, e.g. the \isi{immediat
 	\Med{}=\Fsg.\Alph-\Cop.\Ndu{}-\Pst{}\\
 	\trans `I was there.'
 	\label{approx-vow-2}
-	\vspace{.7cm}
+	
 	\ex \emph{zimithgr}\\
 	\gll z=y-mi-thgr\\
 	\Prox{}=\Tsg.\Masc.\Alph-hang-\Stat.\Ndu{}\\
@@ -1382,31 +1394,29 @@ There are two correspondences which we find in both periods. The first is betwee
 There is no writing tradition in Komnzo, but most people can read and write in one of the official languages, namely \ili{English} and Motu. The mission school, which was based at Rouku during the 1960's, operated in Motu, but today \ili{English} is the teaching language at the primary school in Morehead. Thus, reading and writing in Komnzo has not been promoted in the past. As a consequence, literacy in one's mother tongue is an alien concept for most Komnzo speakers.%\\
 
 The first attempt to develop an \isi{orthography} for Komnzo was during an alphabet workshop organised by Marco and Alma Bouvé at Morehead Station in 2000. It brought together representatives from a dozen villages. The two representatives from Rouku were Greg Marua and Wendy Yasii. When I began my work in Rouku, this \isi{orthography} was not used except for a few words that were written on the blackboard in the elementary school. Regrettably, the Rouku elementary school has been disfunctional since 2010. During my fieldwork I have organised two \isi{orthography} meetings. The outcome of these meetings was the Komnzo Language Council which includes representatives of all clans. The language council has remained an abstract administrative body overseeing my work. In practice, I concentrated most translation and elicitation work on 4-5 interested individuals. Together, we have revised the \isi{orthography} several times. Table \ref{orthogcons} and Figure \ref{orthogvow} show the differences between the \isi{orthography} from the workshop in 2000 and the current \isi{orthography}. Changes are shown with an arrow ($\rightarrow$).
-
-{\renewcommand{\tabcolsep}{2,3pt}
+ 
 \begin{table}
 \caption{Comparison of orthographies: consonants}
-\label{orthogcons}
-	\begin{tabularx}{\textwidth}{p{1,5cm}ccccccc}
+\label{orthogcons}\small
+	\begin{tabularx}{\textwidth}{Q ccc@{~}C@{~}cc@{~}c@{}}
 		\lsptoprule
-		& \scriptsize{bilabial}& \scriptsize{dental} & \scriptsize{alveolar} & \scriptsize{palato-alveolar}	& \scriptsize{palatal} & \scriptsize{velar} & \scriptsize{labio-velar} \\ \midrule
-		\scriptsize{stop} \& && \multicolumn{2}{c}{}&&&&\\
-		\scriptsize{affricate}	&b $\rightarrow$ n/a& \multicolumn{2}{c}{t}& ts $\rightarrow$ z&& k & n/a $\rightarrow$ kw \\%[-0.5ex]
+		& {bilabial}& {dental} & {alveolar} & {palato-alveolar}	& {palatal} & {velar} & {labio-velar} \\ \midrule
+		{stop} \& && \multicolumn{2}{c}{}&&&&\\
+		{affricate}	&b $\rightarrow$ n/a& \multicolumn{2}{c}{t}& ts $\rightarrow$ z&& k & n/a $\rightarrow$ kw \\%[-0.5ex]
 		&&&&&&&\\
-		\scriptsize{prenasalised} && &&&&&\\
-		\scriptsize{stop \&} & mb $\rightarrow$ b & & nt $\rightarrow$ d & nj $\rightarrow$ nz && n\th $\rightarrow$ g & n/a $\rightarrow$ gw\\
-		\scriptsize{affricate}&&&&&&&\\%[-0.5ex]
+		{prenasalised} && &&&&&\\
+		\mbox{stop \& affricate} & mb $\rightarrow$ b & & nt $\rightarrow$ d & nj $\rightarrow$ nz && n\th $\rightarrow$ g & n/a $\rightarrow$ gw\\ 
 		&&&&&&&\\
-		\scriptsize{fricative} 	& f	& th & s &&&&\\%[-0.5ex]
+		{fricative} 	& f	& th & s &&&&\\%[-0.5ex]
 		&&&&&&&\\
-		\scriptsize{nasal} & m && n &&& ng $\rightarrow$ ŋ & \\%[-0.5ex]
+		{nasal} & m && n &&& ng $\rightarrow$ ŋ & \\%[-0.5ex]
 		&&&&&&&\\
-		\scriptsize{lateral} &&& r &&&&\\%[-0.5ex]
+		{lateral} &&& r &&&&\\%[-0.5ex]
 		&&&&&&&\\
-		\scriptsize{semivowel} &&&&&y && w\\
+		{semivowel} &&&&&y && w\\
 		\lspbottomrule
 	\end{tabularx}
-\end{table}}%Comparison of orthographies: consonants
+\end{table}%Comparison of orthographies: consonants
 %}
 
 \begin{figure}
