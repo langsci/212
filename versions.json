@@ -1,8 +1,6 @@
-{
-  "versions": [{
-    "versiontype": "proofreading",
-    "title": "",
-    "authors": [{"name": ""}],
-    "publishedAt": "2016-11-07T00:00:33.000Z"
-  }]
+{"versions": [{"versiontype": "test", 
+              "title": "A grammar of Komnzo",
+              "authors": [{"name": "Christian Döhler"}],
+              "publishedAt": "2018-08-31T14:22:06.000Z"}
+              ]
 }
