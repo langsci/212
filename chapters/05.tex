@@ -10,6 +10,7 @@ The central feature that reverberates throughout Komnzo \isi{verb} morphology is
 
 \clearpage
 \begin{landscape}
+\todo[inline]{redo table}
 \begin{table}
 \caption{Templatic representation of verb inflection}
 {\footnotesize%
@@ -210,8 +211,8 @@ Komnzo has pairs of \isi{verb} stems whose relationship is often unpredictable f
 
 \begin{table}
 \caption{The formal relationship between \Ext{} and \Rs{} stem}
-\begin{tabularx}{\textwidth}{llllrc}
-\label{frbearr}\\
+\label{frbearr}
+\begin{tabularx}{\textwidth}{lXllXr}
 	\lsptoprule
 	{class}&{rule} &\Ext{} &\Rs{} &{gloss} &{count}\\\midrule
 	%\endfirsthead
@@ -660,7 +661,7 @@ Prefixing verbs are a small class with around 20 lexical items attested so far. 
 \begin{table}
 \caption{Prefixing verbs}
 \label{pref.verbs}
-	\begin{tabularx}{\textwidth}{Xlll}
+	\begin{tabularx}{\textwidth}{XlXl}
 		\lsptoprule
 		{infinitive} &{gloss} &{possible} &{gloss}\\
 		or {stem}\footnotemark &&{templates}&\\\midrule
@@ -762,7 +763,7 @@ The data from Table \ref{positional.verbs} shows that for some of the verbs we n
 \caption{Positional verbs}
 \label{positional.verbs}
 {\small%
-\begin{tabularx}{\textwidth}{Xllll}
+\begin{tabularx}{\textwidth}{lXXXl}
 	\lsptoprule
 	{infinitive} & \Pos{} {stem} & \Ext{} \textsc{stem} 	& \Rs{} \textsc{stem} 	& {gloss} \\\midrule
 	\emph{mosisi} &\emph{mosi-} &\emph{mosi-} &\emph{mosir-} &be gathered, piled\\
@@ -1378,7 +1379,7 @@ Komnzo verbs encode three \isi{number} values: \isi{singular}, \isi{dual} and \i
 The peculiarity of \isi{number} marking in Komnzo lies in the fact that it is distributed over two separate slots which, looked at individually, do not distinguish all three values, but operate on a binary opposition. Hence, the overall ternary \isi{number} opposition is reduced to a binary opposition in the respective slots on the verb. There are three logical possibilities for this reduction because each of the three \isi{number} values can be contrasted with its opposite: \isi{singular} vs. \isi{non-singular}; \isi{dual} vs. \isi{non-dual}; \isi{plural} vs. \isi{non-plural}. The combination of any two of the three binary oppositions is sufficient to encode all three \isi{number} values. Figure \ref{ternbinary} below shows the principle behind this reduction.
 
 \begin{figure}
-
+\todo[inline]{redo as proper tikz}
 \begin{tikzpicture}
 	\draw (1,4.5) --(7,4.5);
 	\draw (1,5.5) --(7,5.5);
@@ -1422,19 +1423,20 @@ The peculiarity of \isi{number} marking in Komnzo lies in the fact that it is di
 Komnzo makes use of all three oppositions, but only two of the possible combinations. The \isi{person} affixes operate always on a \isi{singular} vs. \isi{non-singular} opposition. A separate affix, which I call the duality affix, makes a distinction between \isi{dual} vs. \isi{non-dual}. I will show below that under certain circumstances, the same affix encodes \isi{plural} vs. \isi{non-plural}, but this is a marginal pattern (\S{}\ref{prerootdual}). The basic system of distributed \isi{number} marking integrates a \Sg{}-\Nsg{} opposition in the \isi{person} affixes with a \Du-\Ndu{} opposition in the duality affix. Figure \ref{basicnumberm} provides an overview of this principle.
 
 \begin{figure}
-
+\centering
 	\begin{tabularx}{\textwidth}{|c|c|p{1,5cm}p{1,5cm}|}
 		\cline{3-4}
 		\multicolumn{2}{c|}{}&\multicolumn{2}{c|}{\textsc{duality affix}}\\\cline{3-4}
 		\multicolumn{2}{c|}{}&\multicolumn{1}{c}{\Du}&\multicolumn{1}{|c|}{\Ndu}\\
-		\hline 
+		\hline
+		\cline{1-4}
 		\parbox[t]{2mm}{\multirow{6}{*}{\rotatebox[origin=c]{90}{\textsc{person affix}}}}&\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\Sg}}}&\multicolumn{1}{c}{\multirow{3}{*}{}}&\\
 		&&&\multicolumn{1}{c|}{singular}\\
 		&&&\\\cline{2-2}
 		&\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\Nsg}}}&&\\
 		&&\multicolumn{1}{c}{dual}&\multicolumn{1}{c|}{plural}\\
 		&&&\\
-		\hline
+		\cline{1-4}
 		\multicolumn{4}{c}{}\\
 	\end{tabularx}
 \caption{Basic principle of distributed number marking on verbs}\label{basicnumberm}
@@ -1490,9 +1492,9 @@ Examples (\ref{ex215}-g) show the verb \emph{fathasi} `hold' with different \isi
 \end{exe}
 
 For verbs in the \isi{transitive} ambifixing and \isi{ditransitive} ambifixing template, the distribution of the \isi{dual} and \isi{non-dual} markers can be expressed in an abstract way as in Figure \ref{dualitymatrixfathasi}.
-\vspace{-.1cm}
-\begin{figure}
 
+\begin{figure}
+\centering
 	\begin{tabularx}{\textwidth}{|ccccccc|}
 		\cline{3-5}
 		\multicolumn{2}{c|}{}&\multicolumn{3}{c|}{\textsc{actor}}&\\\cline{3-5}
@@ -1614,15 +1616,11 @@ Before I turn to the \isi{dual} marking in pre-stem position with restricted ste
 
 \begin{table}
 	\caption{Allomorphs of the non-dual suffix}
-\begin{tabularx}{\textwidth}{XXrXl}
-	\label{allonondual}\\
+	\label{allonondual}
+\begin{tabularx}{.8\textwidth}{llrXl}
 	\lsptoprule
 	{formatives} & {rule} &{count}& {\textsc{example}}& {gloss}\\
 	\midrule
-	%\endfirsthead
-	{formative} & {rule} &{count}& {\textsc{example}}& {gloss}\\
-	\midrule
-	%\endhead
 	\emph{-wr}& / k]\textsubscript{\tiny{stem}}\_&92& \emph{mätrak-}& `bring out'\\
 	&&& \emph{wek-}&`invite'\\
 	& / g]\textsubscript{\tiny{stem}}\_	&38& \emph{mäyog-}& `repeat'\\
@@ -1764,7 +1762,7 @@ As I mentioned above, since pre-stem duality marking involves the \emph{ä} vowe
 \end{exe}
 \begin{exe}
 	\ex \emph{watik, naf \textbf{zwäkora}: ``watik, nzone efoth fof \hspace*{2cm} zefafth.''}\\
-	\glll watik naf zu-ä-kor-a-\Zero{} watik nzone efoth fof z-ä-faf-th\\
+	\glll watik naf zu-ä-kor-a-\Zero{} watik nzone efoth fof\hspace*{2cm} z-ä-faf-th\\
 	then \Tsg.\Erg{} \Fsg.\Gam-\Ndu-speak.\Rs-\Pst-\Stsg{} then \Fsg.\Poss{} sun|day \Emph{} \M.\Gam-\Ndu.\Vc-hold.\Rs-\Stnsg{}\\
 	{} {} \footnotesize{\Stsg:\Sbj>\Fsg:\Obj:\Pst:\Pfv/speak} {} {} {} {} \footnotesize{\Stnsg:\Sbj:\Pst:\Pfv/hold}\\
 	\trans `Then she said to me: ``Well, my days are over now.''' \Corpus{tci20130911-03}{MBR \#76}
