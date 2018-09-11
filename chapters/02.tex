@@ -626,11 +626,12 @@ The following \isi{minimal pair}s and near \isi{minimal pair}s illustrate the ph
 \caption{Minimal pairs of vowel phonemes}
 % \begin{tabularx}{\textwidth}
 \label{minpairvow}\\
-		\lsptoprule
-		\textsc{segments}&{word}&{phonemic}&{phonetic}&{gloss}\\ \midrule
-		%\endfirsthead
- 		\textsc{segments}&{word}&{phonemic}&{phonetic}&{gloss}\\ \midrule
- 		%\endhead
+% 		\lsptoprule
+		\textsc{segments}&{word}&{phonemic}&{phonetic}&{gloss}\\ 
+		\midrule
+% 		\endfirsthead
+%  		\textsc{segments}&{word}&{phonemic}&{phonetic}&{gloss}\\ \midrule
+%  		\endhead
 		/i/ - /u/ & \emph{mith} & /mith/ & [miθ] & `face'\\
 		& \emph{muth} & /muth/ & [muθ] & `(sago) grub'\\
 		&&&&\\
@@ -821,7 +822,7 @@ The following \isi{minimal pair}s and near \isi{minimal pair}s illustrate the ph
 		&&&&\\
 		& \emph{nzigom} & /nzi.gom/ & [ⁿdʒi{\ᵑ}gɞ̯m] & `chain smoker'\\
 		& \emph{nzigm} & /nzi.gm/ & [ⁿdʒi{\ᵑ}gə̆m] & `stickyness'\\
-		\lspbottomrule
+% 		\lspbottomrule
 % \end{tabularx}
 \end{longtable}
 
@@ -830,14 +831,14 @@ The following \isi{minimal pair}s and near \isi{minimal pair}s illustrate the ph
 \section{Regular phonological processes} \label{regular-phon-processes}
 
 \subsection{Gemination} \label{gemination-section}
-
+\largerpage
 Gemination occurs with a subset of the consonantal phonemes (/t/, /k/, /f/, /th/, /m/, /n/, and /r/). We find geminates in medial, heterosyllabic \isi{consonant clusters} where the rules of \isi{syllabification} specify that no \isi{epenthetic vowel} needs to be inserted (see \S{}\ref{syllabificationandepenthesis}). Phonetically, geminates are characterised by a prolonged realisation of \isi{fricatives}, \isi{nasals}, and \isi{alveolar} trill. Geminate stops are realised with a delayed release of the airflow. Although gemination is caused by affixation in most cases, I discuss the topic here rather than as a morphophonemic rule because we also find monomorphemic roots with geminates. The examples in \tabref{geminates} provide some attested examples from the corpus. In some of the examples, we find \isi{minimal pair}s based on gemination as can be seen in the rightmost column.
 
 
 \begin{table}
 \caption{Geminate consonants}
 \label{geminates}
-	\begin{tabularx}{.8\textwidth}{lQl}
+	\begin{tabularx}{\textwidth}{lQl}
 		\lsptoprule
 		{segment} & {geminate} & {non-geminate} \\ \midrule
 		/t/ & \emph{yttünzr} `s/he paints him' & n/a \\
@@ -952,10 +953,10 @@ We find that where C\textsubscript{a} and C\textsubscript{b} are identical the c
 \begin{table}
 \caption{Heterosyllabic consonant clusters}
 \label{heterosyllcctable}
-	\begin{tabularx}{\textwidth}{Xcccccccc}
+	\begin{tabularx}{\textwidth}{lCCCCCCCC}
 		\lsptoprule
-		&&{oral}&{pren.}&&&&&{lab-}\\
-		& /r/ & {stop} & {stop}\footnotemark & {nasal} & {affr.} & {fric.} & {approx.} & {velar}\\ \midrule
+		&&{oral}&{pren.}&&&&&{labio-}\\
+		& /r/ & {stop} & {stop}\footnote{The column and line labelled `prenasal' includes prenasalised stops and the prenasalised affricate.} & {nasal} & {affr.} & {fric.} & {approx.} & {velar}\\ \midrule
 		%&&&&&&&&\\
 		/r/ & \checkmark & \checkmark & n/a & \checkmark & \checkmark & \checkmark & \checkmark  & \checkmark\\%[1.5ex]
 		{oral stop} & n/a & \checkmark & n/a & \checkmark & n/a & \checkmark & \checkmark  & \checkmark\\%[1.5ex]
@@ -968,10 +969,10 @@ We find that where C\textsubscript{a} and C\textsubscript{b} are identical the c
 		\lspbottomrule
 	\end{tabularx}
 \end{table}%Heterosyllabic \isi{consonant clusters}
-\footnotetext{The column and line labelled `prenasal' includes prenasalised stops and the prenasalised affricate.}
+ 
 
 
-\begin{longtable}{p{1,2cm}p{1,55cm}lll}
+\begin{longtable}{p{2cm}p{2cm}lll}
 \caption{Examples of attested heterosyllabic consonant clusters}
 \label{heterosyllcctableexamples}
 % \begin{tabularx}{\textwidth}{p{1,2cm}p{1,55cm}lll}
@@ -1113,27 +1114,27 @@ In Figure \ref{syll001}-5 below, I present four examples spelling out the algori
 \begin{figure}
 \caption{Syllabification of \emph{kwark} `deceased'}
 \label{syll001}
-\begin{mdframed}
+\begin{mdframed}[linewidth=.5mm]
 $\begin{array}{l}
 	
 	\parbox{3cm}{/kwark/} \parbox{5cm}{underlying representation}\\
 	
-	\parbox{3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3cm}{\hfill}\parbox{4cm}{\centering $\downarrow$}\\
 	
 	\parbox{3cm}{/kw\textsubscript{$\sigma$}[\uline{a}]rk/} \parbox{15cm}{Rule 1: Associate each specified vowel with a nucleus.} \\
 	
-	\parbox{3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3cm}{/\textsubscript{$\sigma$}[\uline{kwa}]rk/} \parbox{15cm}{Rule 2: Maximise onsets.} \\
 	\parbox{3cm}{\hfill} \parbox{15cm}{$\rightarrow$ establishes the \isi{syllable} \textsubscript{$\sigma$}[kwa]} \\
 	
-	\parbox{3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3cm}{/\textsubscript{$\sigma$}[kwa]\textsubscript{$\sigma$}[\uline{rk}]/} \parbox{10cm}{Rule 3b: Break up consonant clusters.} \\
 	\parbox{3cm}{\hfill} \parbox{10cm}{$\rightarrow$ \isi{schwa} is inserted between /r/ and /k/ and creates a} \\
 	\parbox{3cm}{\hfill} \parbox{10cm}{CVC syllable} \\
 	
-	\parbox{3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3cm}{/kwa.rk/} 	\parbox{12cm}{syllabified form: [kʷaɾə̆k]}
 \end{array}$
@@ -1141,37 +1142,37 @@ $\begin{array}{l}
 \end{figure}%kwark
 \begin{figure}
 \caption{Syllabification of \emph{yanthugwr} `s/he tricks him here'}\label{syll002}
-\begin{mdframed}
+\begin{mdframed}[linewidth=.5mm]
 $\begin{array}{l}
 	
 	\parbox{3,5cm}{/yanthugwr/} \parbox{5cm}{underlying representation}\\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3,5cm}{/y\textsubscript{$\sigma$}[\uline{a}]nth\textsubscript{$\sigma$}[\uline{u}]gwr/} 	\parbox{9cm}{Rule 1: Associate each specified vowel with a nucleus.} \\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\parbox{3,5cm}{/\textsubscript{$\sigma$}[\uline{ya}]n\textsubscript{$\sigma$}[\uline{thu}]gwr/} 	\parbox{9cm}{Rule 2: Maximise onsets.} \\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ establishes the syllables \textsubscript{$\sigma$}[ya] and \textsubscript{$\sigma$}[thu]} \\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3,5cm}{/\textsubscript{$\sigma$}[ya]n\textsubscript{$\sigma$}[thu]g\textsubscript{$\sigma$}[\uline{wr}]/} 	\parbox{9cm}{Rule 3b: Break up consonant clusters.} \\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ \isi{schwa} is inserted between /w/ and /r/}\\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3,5cm}{/\textsubscript{$\sigma$}[ya]n\textsubscript{$\sigma$}[thu\uline{g}]\textsubscript{$\sigma$}[\uline{w}r]/} 	\parbox{9cm}{Rule 3c: Establish codas.} \\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ /g.w/ is possible} \\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ /g/ becomes a coda of the preceding syllable} \\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3,5cm}{/\textsubscript{$\sigma$}[ya\uline{n}]\textsubscript{$\sigma$}[\uline{th}ug]\textsubscript{$\sigma$}[wr]/} 	\parbox{9cm}{Rule 3c: Establish codas.}\\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ /n.th/ is possible}\\
 	\parbox{3,5cm}{\hfill} 	\parbox{9cm}{$\rightarrow$ /n/ becomes coda of the preceding syllable} \\
 	
-	\parbox{3,5cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,5cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	
 	\parbox{3,5cm}{/yan.thug.wr/} 	\parbox{9cm}{syllabified form: [janðu{\ᵑ}gwə̆ɾ]}
 \end{array}$
@@ -1180,30 +1181,30 @@ $\begin{array}{l}
 \begin{figure}
 \vspace{-0,7cm}
 \caption{Syllabification of \emph{zwäfiyokwé} `I finished sth. for her'}\label{syll004}
-\begin{mdframed}
+\begin{mdframed}[linewidth=.5mm]
 $\begin{array}{l}
 	\vspace{0,1cm}
 	\parbox{4,3cm}{/zwäfiyokw\textsubscript{$\sigma$}[é]/} \parbox{8,7cm}{underlying representation: final \isi{schwa} (\Fsg{}) is}\vspace{-0,1cm}\\
 	%\parbox{4,1cm}{\hfill} \parbox{8,7cm}{actor suffix, which is prespecified as nucleus}\\
 	\parbox{4,3cm}{\hfill} \parbox{8,7cm}{prespecified as nucleus}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
-	\parbox{4,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\vspace{-0,1cm}\\
+	\parbox{4,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
 	\parbox{4,3cm}{/zw\textsubscript{$\sigma$}[\uline{ä}]f\textsubscript{$\sigma$}[\uline{i}]y\textsubscript{$\sigma$}[\uline{o}]kw\textsubscript{$\sigma$}[é]/} 	\parbox{8,7cm}{Rule 1: Associate each specified vowel with a} \\
 	\parbox{4,3cm}{\hfill} 	\parbox{8,7cm}{nucleus.} \\
 	\vspace{0,1cm}
-	\parbox{4,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\vspace{-0,1cm}\\
+	\parbox{4,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
 	\parbox{4,3cm}{/\textsubscript{$\sigma$}[\uline{zwä}]\textsubscript{$\sigma$}[\uline{fi}]\textsubscript{$\sigma$}[\uline{yo}]k\textsubscript{$\sigma$}[\uline{wé}]/} 	\parbox{8,7cm}{Rule 2: Maximise onsets.}\vspace{-0,1cm}\\
 	\parbox{4,3cm}{\hfill} 	\parbox{8,7cm}{$\rightarrow$ establishes: \textsubscript{$\sigma$}[zwä], \textsubscript{$\sigma$}[fi], \textsubscript{$\sigma$}[yo], \textsubscript{$\sigma$}[wé]}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
-	\parbox{4,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\vspace{-0,1cm}\\
+	\parbox{4,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
 	\parbox{4,3cm}{/\textsubscript{$\sigma$}[zwä]\textsubscript{$\sigma$}[fi]\textsubscript{$\sigma$}[yo\uline{k}]\textsubscript{$\sigma$}[\uline{w}é]/} 	\parbox{8,7cm}{Rule 3c: Establish codas.}\vspace{-0,1cm} \\
 \parbox{4,3cm}{\hfill}\parbox{8,7cm}{$\rightarrow$ /k.w/ is possible} \\
 \parbox{4,3cm}{\hfill}\parbox{8,7cm}{$\rightarrow$ /k/ becomes coda of the preceding syllable} \\
 	\vspace{0,1cm}
-	\parbox{4,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\vspace{-0,1cm}\\
+	\parbox{4,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\vspace{-0,1cm}\\
 	\vspace{0,1cm}
 	\parbox{4,3cm}{/zwä.fi.yok.wé/} 	\parbox{8,7cm}{syllabified form: [tswæɸıjɔkwə̆]}
 \end{array}$
@@ -1211,38 +1212,38 @@ $\begin{array}{l}
 \end{figure}%zwäfiyokwé
 \begin{figure}
 \caption{Syllabification of \emph{skrifzenz} `Skri's wife'}\label{syll003}
-\begin{mdframed}
+\begin{mdframed}[linewidth=.5mm]
 $\begin{array}{l}
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/skrifzenz/} \parbox{5cm}{underlying representation}\\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/skr\textsubscript{$\sigma$}[\uline{i}]fz\textsubscript{$\sigma$}[\uline{e}]nz/} 	\parbox{9,5cm}{Rule 1: Associate each specified vowel with a nucleus.} \\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/s\textsubscript{$\sigma$}[\uline{kri}]f\textsubscript{$\sigma$}[\uline{ze}]nz/} 	\parbox{9,5cm}{Rule 2: Maximise onsets.} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ establishes: \textsubscript{$\sigma$}[\uline{kri}], \textsubscript{$\sigma$}[\uline{ze}]} \\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/s\textsubscript{$\sigma$}[kri]f\textsubscript{$\sigma$}[ze\uline{nz}]/} 	\parbox{9,5cm}{Rule 3c: Establish codas.} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ no cluster with /nz/} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ /nz/ becomes the coda of the preceding syllable} \\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/s\textsubscript{$\sigma$}[kri\uline{f}]\textsubscript{$\sigma$}[\uline{z}enz]/} 	\parbox{9,5cm}{Rule 3c: Establish codas.} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ /f.z/ is possible} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ /f/ becomes the coda of the preceding \isi{syllable}.} \\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/\textsubscript{$\sigma$}[\uline{s}]\textsubscript{$\sigma$}[\uline{k}rif]\textsubscript{$\sigma$}[zenz]/} 	\parbox{9,5cm}{Rule 3b: Break up consonant clusters.} \\
 	\parbox{3,3cm}{\hfill} 	\parbox{9,5cm}{$\rightarrow$ \isi{schwa} is inserted between /s/ and /k/} \\
 	\vspace{0,1cm}
-	\parbox{3,3cm}{\hfill}\parbox{4cm}{$\downarrow$}\\
+	\parbox{3,3cm}{\hfill}\parbox{4cm}{\centering$\downarrow$}\\
 	\vspace{0,1cm}
 	\parbox{3,3cm}{/s.krif.zenz/} 	\parbox{9,5cm}{syllabified form: [sə̆kɾiɸtʃeⁿts]}
 \end{array}$
