@@ -14,26 +14,31 @@ This chapter begins with an overview of the structure of the \isi{noun phrase} i
 
 Noun phrases are structure of functional slots. Each slot may be filled by particular elements. The abstract structure is shown in Figure \ref{nounphrasestruc}.
 
-\begin{figure}
-\todo[inline]{redo table}
-	\begin{tabularx}{\textwidth}{|llllll|}
+\begin{figure} 
+\fittable{
+\small
+	\begin{tabular}{|llllll|}
+		\hline 
+		{({determiner})}&\multicolumn{3}{|c|}{{({premodifier})}}&\multicolumn{1}{c|}{{({head})}}&{({postmodifier})} \rule{0pt}{4mm}\\		
 		\hline
-		&&&&&\\
-		\small{(\textsc{determiner})}&\multicolumn{3}{|c|}{\small{(\textsc{premodifier})}}&\multicolumn{1}{c|}{\small{(\textsc{head})}}&\small{(\textsc{postmodifier})}\\
-		&&&&&\\
-		\footnotesize{demonstrative}&\multicolumn{1}{|l}{\footnotesize{numeral}}&\footnotesize{adjectives}&&\multicolumn{1}{|l|}{\footnotesize{\textsc{pers} \isi{pronoun}\textsuperscript{b}}}&\footnotesize{\textsc{determiner}\textsuperscript{c}}\\
-		\footnotesize{indefinite}&\multicolumn{1}{|l}{\footnotesize{quantifier}}&\footnotesize{property noun}&&\multicolumn{1}{|l|}{\footnotesize{\Indf{} \isi{pronoun}\textsuperscript{b}}}&\footnotesize{adjectives\textsuperscript{d}}\\
-		\footnotesize{interrogative}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{\footnotesize{\Recog{} \isi{pronoun}\textsuperscript{b}}}&\footnotesize{\isi{locational}\textsuperscript{d}}\\
-		\footnotesize{\Poss{} pronoun}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{\footnotesize{noun}}&\footnotesize{quantifier}\\
-		\footnotesize{\Char{} \textsc{np}}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{\footnotesize{property noun}}&\footnotesize{numeral}\\
-		\footnotesize{\Char{} \textsc{np}}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{\footnotesize{nominalised verb}}&\\
-		&&&&\multicolumn{1}{|l|}{\footnotesize{compound}}&\\
-		&&&&&\\\hline
-		\multicolumn{6}{l}{\scriptsize{\textsuperscript{a} The \isi{noun phrase} must be marked with adnominal case: \Poss{} \textsc{np}, \Temp.\Poss{} \textsc{np} or \Char{} \textsc{np}.}}\\
-		\multicolumn{6}{l}{\scriptsize{\textsuperscript{b} These word classes constitute a whole \isi{noun phrase} and, thus, are rarely modified.}}\\
-		\multicolumn{6}{l}{\scriptsize{\textsuperscript{c} Elements in the \textsc{determiner} slots can be postposed, if there is no case marker present.}}\\
-		\multicolumn{6}{l}{\scriptsize{\textsuperscript{d} Locationals always occur in this slot (\S{}\ref{locationals}), a few adjectives are limited to this slot (\S{}\ref{adjectives}).}}\\
-	\end{tabularx}
+		{demonstrative}&\multicolumn{1}{|l}{{numeral}}&{adjectives}&&\multicolumn{1}{|l|}{{{pers} \isi{pronoun}\textsuperscript{b}}}&{{determiner}\textsuperscript{c}}\rule{0pt}{3mm}\\
+		{indefinite}&\multicolumn{1}{|l}{{quantifier}}&{property noun}&&\multicolumn{1}{|l|}{{\Indf{} \isi{pronoun}\textsuperscript{b}}}&{adjectives\textsuperscript{d}}\\
+		{interrogative}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{{\Recog{} \isi{pronoun}\textsuperscript{b}}}&{\isi{locational}\textsuperscript{d}}\\
+		{\Poss{} pronoun}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{{noun}}&{quantifier}\\
+		{\Char{} {np}}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{{property noun}}&{numeral}\\
+		{\Char{} {np}}&\multicolumn{1}{|l}{\hfill}&&&\multicolumn{1}{|l|}{{nominalised verb compound}}&\\
+		\hline
+	\end{tabular} 
+	}\\
+\smallskip
+
+~~\parbox{\textwidth}{	
+  \footnotesize	
+  \textsuperscript{a}\,The \isi{noun phrase} must be marked with adnominal case: \Poss{} {np}, \Temp.\Poss{} {np} or \Char{} {np}.\\
+  \textsuperscript{b}\,These word classes constitute a whole \isi{noun phrase} and, thus, are rarely modified.\\
+  \textsuperscript{c}\,Elements in the {determiner} slots can be postposed, if there is no case marker present.\\
+  \textsuperscript{d}\,Locationals always occur in this slot (\S{}\ref{locationals}), a few adjectives are limited to this slot (\S{}\ref{adjectives}).
+}
 \caption{The structure of the noun phrase}
 \label{nounphrasestruc}
 \end{figure}
@@ -301,14 +306,24 @@ On the other end of the spectrum are complex heads. The Komnzo lexicon contains 
 		\midrule
 		noun + noun &\emph{wawa mnz} &\emph{wawa} &\emph{mnz} &`yamhouse'\\
 		&& \footnotesize{yam} &\footnotesize{house} &\\
+		
+		\tablevspace
 		&\emph{wath kabe} &\emph{wath} &\emph{kabe} &`dancer(s)'\\
 		&&\footnotesize{dance} &\footnotesize{man/people} &\\
+		
+		\tablevspace
 		\isit{property noun} + noun& \emph{wri kabe} &\emph{wri} &\emph{kabe} &`drunkard'\\
 		&&\footnotesize{intoxication} &\footnotesize{man/people} &\\
-		noun + \isi{property noun}& \emph{zan miyo} &\emph{zan} &\emph{miyo} &`bloodlust'\\
+		
+		\tablevspace
+		noun + \isi{property noun}& \emph{zan miyo} &\emph{zan} &\emph{miyo} &`bloodlust'\\		
 		&&\footnotesize{killing} &\footnotesize{desire} &\\
+		
+		\tablevspace
 		nom. verb + noun &\emph{borsi zokwasi} &\emph{bor-si} &\emph{zokwasi} &`joke'\\
 		&&\footnotesize{play-\Nmlz} &\footnotesize{words} &\\
+		
+		\tablevspace
 		noun + nom. verb &\emph{si zübraksi} &\emph{si} &\emph{zübrak-si} &`prayer'\\
 		&&\footnotesize{eye} &\footnotesize{close.eye-\Nmlz}&\\
 		\lspbottomrule
