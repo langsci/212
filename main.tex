@@ -2,7 +2,7 @@
 	nonflat,
 	modfonts,
 	smallfont,
-	colorlinks, citecolor=brown,
+%	colorlinks, citecolor=brown,
 % 	draft, draftmode
 	%showindex
 ]{langsci/langscibook}
@@ -14,23 +14,6 @@
 \hypersetup{bookmarksopenlevel=0}
 \dedication{For Nakre and Tayafe}
 
-% \includeonly{ 
-% % chapters/01,
-% % chapters/02,
-% % chapters/03,
-% % chapters/04,
-% % chapters/05,
-% % chapters/06,
-% chapters/07,
-% % chapters/08,
-% % chapters/09,
-% % chapters/10,
-% % chapters/11,
-% % chapters/12-appendix,
-% % chapters/13-appendix,
-% % chapters/14-appendix,
-% % chapters/15-appendix
-% }
 \begin{document}
 \input{localcommands.tex}
 
@@ -39,9 +22,7 @@
 	\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
 	\tableofcontents
 	\include{chapters/acknowledgments}
-	\include{chapters/preface}
 	\include{chapters/abbreviations}
-
 \mainmatter
 	\include{chapters/01}
 	\include{chapters/02}
