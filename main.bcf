@@ -1925,29 +1925,13 @@
     <bcf:datasource type="file" datatype="bibtex">localbibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Olsson:2013vn</bcf:citekey>
-    <bcf:citekey order="2">Olsson:2013vn</bcf:citekey>
-    <bcf:citekey order="3">Reesink:2009bird</bcf:citekey>
-    <bcf:citekey order="4">Dik:1997uj</bcf:citekey>
-    <bcf:citekey order="5">Olsson:2013vn</bcf:citekey>
-    <bcf:citekey order="6">Olsson:2013vn</bcf:citekey>
-    <bcf:citekey order="7">Bybee:1989hk</bcf:citekey>
-    <bcf:citekey order="8">Frawley:1992wi</bcf:citekey>
-    <bcf:citekey order="9">Comrie:1976vd</bcf:citekey>
-    <bcf:citekey order="10">Drabbe:1955tm</bcf:citekey>
-    <bcf:citekey order="11">Siegel:2015bp</bcf:citekey>
-    <bcf:citekey order="12">Evans:2015wy</bcf:citekey>
-    <bcf:citekey order="13">Kennedy:2005fy</bcf:citekey>
-    <bcf:citekey order="14">Kubota:2010bx</bcf:citekey>
-    <bcf:citekey order="15">Sasse:2002vn</bcf:citekey>
-    <bcf:citekey order="16">Comrie:1976vd</bcf:citekey>
-    <bcf:citekey order="17">Smith:1997tq</bcf:citekey>
-    <bcf:citekey order="18">Bybee:irrealis</bcf:citekey>
-    <bcf:citekey order="19">Givon:1994ko</bcf:citekey>
-    <bcf:citekey order="20">Cristofaro:2004wi</bcf:citekey>
-    <bcf:citekey order="21">Foley:2000uh</bcf:citekey>
-    <bcf:citekey order="22">Hopper:1979us</bcf:citekey>
-    <bcf:citekey order="23">Hartzler:1983wm</bcf:citekey>
+    <bcf:citekey order="1">Dryer:2007wordorder</bcf:citekey>
+    <bcf:citekey order="2">Evans:2015wy</bcf:citekey>
+    <bcf:citekey order="3">Geniusienie:1987refl</bcf:citekey>
+    <bcf:citekey order="4">Silverstein:1976vo</bcf:citekey>
+    <bcf:citekey order="5">Pawley:2000vp</bcf:citekey>
+    <bcf:citekey order="6">Turnerlister:1935motu</bcf:citekey>
+    <bcf:citekey order="7">Heine:2005wp</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
