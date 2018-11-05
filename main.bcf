@@ -1925,40 +1925,23 @@
     <bcf:datasource type="file" datatype="bibtex">localbibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">SchultzeBerndt:2000wk</bcf:citekey>
-    <bcf:citekey order="2">Meakins:ul</bcf:citekey>
-    <bcf:citekey order="3">Schachter:2007vv</bcf:citekey>
-    <bcf:citekey order="4">Donohue:2008bn</bcf:citekey>
-    <bcf:citekey order="5">Hammarstrom:2009bp</bcf:citekey>
-    <bcf:citekey order="6">Evans:2009wg</bcf:citekey>
-    <bcf:citekey order="7">Donohue:2008bn</bcf:citekey>
-    <bcf:citekey order="8">Reesink:1987vg</bcf:citekey>
-    <bcf:citekey order="9">Evans:quant</bcf:citekey>
-    <bcf:citekey order="10">Haspelmath:1997indefinite</bcf:citekey>
-    <bcf:citekey order="11">wals-115</bcf:citekey>
-    <bcf:citekey order="12">Dixon:2003dj</bcf:citekey>
-    <bcf:citekey order="13">Coulmas:1982wl</bcf:citekey>
-    <bcf:citekey order="14">Diessel:2009tg</bcf:citekey>
-    <bcf:citekey order="15">Diessel:2009tg</bcf:citekey>
-    <bcf:citekey order="16">Diessel:2009tg</bcf:citekey>
-    <bcf:citekey order="17">Himmelmann:1996tp</bcf:citekey>
-    <bcf:citekey order="18">Diessel:2009tg</bcf:citekey>
-    <bcf:citekey order="19">Diessel:2009tg</bcf:citekey>
-    <bcf:citekey order="20">Himmelmann:1996tp</bcf:citekey>
-    <bcf:citekey order="21">Heath:1984uk</bcf:citekey>
-    <bcf:citekey order="22">Goddard:1985tw</bcf:citekey>
-    <bcf:citekey order="23">Himmelmann:1996tp</bcf:citekey>
-    <bcf:citekey order="24">Garde:2013ut</bcf:citekey>
-    <bcf:citekey order="25">Dixon:2003dj</bcf:citekey>
-    <bcf:citekey order="26">Evans:1995uf</bcf:citekey>
-    <bcf:citekey order="27">Wichmann:2008loanverbs</bcf:citekey>
-    <bcf:citekey order="28">Heine:2005wp</bcf:citekey>
-    <bcf:citekey order="29">Comrie:2007nom</bcf:citekey>
-    <bcf:citekey order="30">Olsson:2013vn</bcf:citekey>
-    <bcf:citekey order="31">Zwicky:1983jd</bcf:citekey>
-    <bcf:citekey order="32">Anderson:1992uw</bcf:citekey>
-    <bcf:citekey order="33">Dingemanse:2012fc</bcf:citekey>
-    <bcf:citekey order="34">Dingemanse:2012fc</bcf:citekey>
+    <bcf:citekey order="1">Blake:case</bcf:citekey>
+    <bcf:citekey order="2">Blake:case</bcf:citekey>
+    <bcf:citekey order="3">Andrews:2007nounphrase</bcf:citekey>
+    <bcf:citekey order="4">Fillmore:1968case</bcf:citekey>
+    <bcf:citekey order="5">Dixon:1972dyirbal</bcf:citekey>
+    <bcf:citekey order="6">Andrews:2007nounphrase</bcf:citekey>
+    <bcf:citekey order="7">Evans:1988ge</bcf:citekey>
+    <bcf:citekey order="8">Pawley:2000vp</bcf:citekey>
+    <bcf:citekey order="9">Evans:2015wy</bcf:citekey>
+    <bcf:citekey order="10">Carroll:Ngkolmpu</bcf:citekey>
+    <bcf:citekey order="11">Bybee:2010wb</bcf:citekey>
+    <bcf:citekey order="12">Croft:cogn</bcf:citekey>
+    <bcf:citekey order="13">Luraghi:2003vi</bcf:citekey>
+    <bcf:citekey order="14">Luraghi:2001bv</bcf:citekey>
+    <bcf:citekey order="15">Lichtenberk:2000hr</bcf:citekey>
+    <bcf:citekey order="16">Singer:inclu</bcf:citekey>
+    <bcf:citekey order="17">Carroll:Ngkolmpu</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
