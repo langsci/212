@@ -1,4 +1,10 @@
-{"versions": [{"versiontype": "proofreading",
+{"versions": [
+	{"versiontype": "proofreading",
+		"title": "A grammar of Komnzo",
+		"authors": [{"name": "Christian Döhler"}],
+	"license": "CC-BY-4.0", 
+	"publishedAt": "2018-09-19T14:37:43.000Z"},
+	{"versiontype": "proofreading",
 		"title": "A grammar of Komnzo",
 		"authors": [{"name": "Christian Döhler"}],
 	"license": "CC-BY-4.0", 

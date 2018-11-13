@@ -47,7 +47,7 @@ cover: FORCE
 
 googlebooks: googlebooks_interior.pdf
 
-googlebooks_interior.pdf: complete
+googlebooks_interior.pdf:  
 	cp main.pdf googlebooks_interior.pdf
 	pdftk main.pdf cat 1 output googlebooks_frontcover.pdf 
 
@@ -107,6 +107,16 @@ chapterlist:
 podcover:
 	bash podcovers.sh
 
- 
+
+publish: googlebooks
+	cp main.pdf final.pdf 
+	cp main.pdf first_edition.pdf
+	git checkout gh-pages
+	git add first_edition.pdf 
+	vim versions.json
+	git commit -am 'provide first version'
+	git push origin gh-pages
+	git checkout master
+	
 
 FORCE:
